@@ -1,3 +1,17 @@
+'''
+
+/home/michell-alvarez/e_modelos/EF
+
+cd ~/e_modelos
+cd EF
+
+conda activate pytorch_env
+streamlit run mia_streamlit.py
+conda deactivate
+
+'''
+#  streamlit run mia_streamlit.py
+
 # -------------------------------
 # STREAMLIT Y COMPONENTES DE UI
 # -------------------------------
