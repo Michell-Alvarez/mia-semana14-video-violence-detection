@@ -240,7 +240,7 @@ def train_model():
     dot = make_dot(output, params=dict(model.named_parameters()))  # Crea grafo visual con parámetros
     dot.render("model_architecture_make_dot", format="png")  # Guarda el grafo como imagen PNG
 
-    # ⚙️ Define el optimizador con regularización L2 (weight decay)
+    # Define el optimizador con regularización L2 (weight decay)
     optimizer = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
 
     # Planificador de tasa de aprendizaje (scheduler) con forma de coseno
